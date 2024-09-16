@@ -7,7 +7,13 @@ url: https://shseong10.github.io
 aux_links:
   Template Repository: https://github.com/shseong10/shseong10.github.io
 
-
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
 
 
 # Define Jekyll collections //카테고리 설정
