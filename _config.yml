@@ -6,3 +6,32 @@ url: https://shseong10.github.io
 
 aux_links:
   Template Repository: https://github.com/shseong10/shseong10.github.io
+
+
+# Define Jekyll collections //카테고리 설정
+collections:
+  posts:
+    permalink: "/:collection/:path/"
+    output: true
+  tests:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    posts:
+      name: Posts
+    tests:
+      name: Tests
+
+
+      
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
